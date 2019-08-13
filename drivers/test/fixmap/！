@@ -1,0 +1,15 @@
+#
+# Character device configuration
+#
+
+menu "test module"
+
+config TEST_OWN
+	tristate "TEST-2.6"
+	---help---
+		This allows you to test module in ELK BOOKS.
+
+source drivers/test/fixmap/Kconfig
+
+endmenu
+

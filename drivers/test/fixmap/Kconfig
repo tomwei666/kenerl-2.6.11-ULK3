@@ -1,0 +1,14 @@
+#
+# Character device configuration
+#
+
+menu "test fixmap"
+	depends on TEST_OWN
+
+config TEST_FIXMAP
+	tristate "test fixmap"
+	depends on TEST_OWN
+	help
+	  This test fixmap module.
+endmenu
+
